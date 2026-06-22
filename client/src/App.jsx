@@ -12,19 +12,19 @@ const App = () => {
       element: <Locations />
     },
     {
-      path: '/echolounge',
+      path: '/ironhold',
       element: <LocationEvents index={1} />
     },
     {
-      path: '/houseofblues',
+      path: '/mistral',
       element: <LocationEvents index={2} />
     },
     {
-      path: '/pavilion',
+      path: '/stormpeak',
       element: <LocationEvents index={3} />
     },
     {
-      path: '/americanairlines',
+      path: '/gildedgriffon',
       element: <LocationEvents index={4} />
     }
     // TODO phase 7 (stretch): restore /events route

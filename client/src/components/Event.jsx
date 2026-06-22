@@ -1,4 +1,5 @@
 import React from 'react'
+import { formatDate, formatTime } from '../services/dates'
 import '../css/Event.css'
 
 const Event = (props) => {
@@ -10,7 +11,7 @@ const Event = (props) => {
                 <div className='text'>
                     <h3>{props.title}</h3>
                     <p>
-                        <i className="fa-regular fa-calendar fa-bounce"></i> {props.date} <br /> {props.time}
+                        <i className="fa-regular fa-calendar fa-bounce"></i> {formatDate(props.date)} <br /> {formatTime(props.time)}
                     </p>
                 </div>
             </div>
