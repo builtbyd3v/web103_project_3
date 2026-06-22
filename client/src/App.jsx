@@ -2,7 +2,7 @@ import React from 'react'
 import { useRoutes, Link } from 'react-router-dom'
 import Locations from './pages/Locations'
 import LocationEvents from './pages/LocationEvents'
-// import Events from './pages/Events'   // TODO phase 7 (stretch): restore Events page
+import Events from './pages/Events'
 import './App.css'
 
 const App = () => {
@@ -26,12 +26,11 @@ const App = () => {
     {
       path: '/gildedgriffon',
       element: <LocationEvents index={4} />
+    },
+    {
+      path: '/events',
+      element: <Events />
     }
-    // TODO phase 7 (stretch): restore /events route
-    // ,{
-    //   path: '/events',
-    //   element: <Events />
-    // }
   ])
 
   return (
@@ -42,8 +41,7 @@ const App = () => {
 
         <div className='header-buttons'>
           <Link to='/' role='button'>Home</Link>
-          {/* TODO phase 7 (stretch): restore Events link */}
-          {/* <Link to='/events' role='button'>Events</Link> */}
+          <Link to='/events' role='button'>Events</Link>
         </div>
       </header>
 
