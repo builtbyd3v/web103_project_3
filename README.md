@@ -4,7 +4,7 @@ Submitted by: **Dev Goswami**
 
 About this web app: **UnityGrid Plaza — a virtual community space for guided dungeon-crawling expeditions. Pick an adventurers' guild lodge from a visual map of the plaza, then view its scheduled expeditions (date, time, and a live countdown). A separate Events page lists every expedition with the ability to filter by lodge. Built with a React frontend and an Express + PostgreSQL API.**
 
-Time spent: **X** hours
+Time spent: **5** hours
 
 ## Required Features
 
@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./web103_project_3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LiceCap.
